@@ -11,7 +11,7 @@ public class GlueCode {
 	
 	@Given("^this is step (\\d+)$")
 	public void this_is_step(int arg1) throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/devma/OneDrive/Documents/Workspace/EclipseNeonJEE/SampleJavaLibraryProject/cucable-test-project/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/dmp001j/eclipse-workspace/git/UI/CucumberReporting/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-extensions");
 		WebDriver wd = new ChromeDriver(options);
